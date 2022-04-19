@@ -1,0 +1,183 @@
+# NoMoreOre by Abcik
+# Version: 1.1
+
+CoalOre:
+  #World names in which ore will not be generated.
+  #ATTENTION! This setting may cause some lag if all chunks of world were not pre-generated.
+  noGenerateInWorlds:
+    - 'world'
+  #World names in which this ore can be mined in an alternative way.
+  enableInWorlds:
+    - 'world'
+  #You can create an unlimited number of presets with different settings.
+  presets:
+    1:
+      minY: 0
+      maxY: 256
+      chance: 0.371
+      #Biomes in this preset. If you want to set all biomes except BIOME_NAME, add 'ALL' and '-BIOME_NAME'.
+      biomes:
+        - 'ALL'
+        #- -BIOME_NAME
+
+CopperOre:
+  noGenerateInWorlds:
+    - 'world'
+  enableInWorlds:
+    - 'world'
+  presets:
+    1:
+      minY: -16
+      maxY: 112
+      chance: 0.371
+      biomes:
+        - 'ALL'
+IronOre:
+  noGenerateInWorlds:
+    - 'world'
+  enableInWorlds:
+    - 'world'
+  presets:
+    1:
+      minY: -48
+      maxY: 320
+      chance: 0.344
+      biomes:
+        - 'ALL'
+
+GoldOre:
+  noGenerateInWorlds:
+    - 'world'
+  enableInWorlds:
+    - 'world'
+  presets:
+    1:
+      minY: -64
+      maxY: 32
+      chance: 0.109
+      biomes:
+        - 'ALL'
+    2:
+      minY: 33
+      maxY: 256
+      chance: 0.371
+      biomes:
+        - 'BADLANDS'
+
+RedstoneOre:
+  noGenerateInWorlds:
+    - 'world'
+  enableInWorlds:
+    - 'world'
+  presets:
+    1:
+      minY: -64
+      maxY: 16
+      chance: 0.154
+      biomes:
+        - 'ALL'
+
+EmeraldOre:
+  noGenerateInWorlds:
+    - 'world'
+  enableInWorlds:
+    - 'world'
+  presets:
+    1:
+      minY: -16
+      maxY: 256
+      chance: 0.1
+      biomes:
+        - 'WINDSWEPT_FOREST'
+        - 'WINDSWEPT_GRAVELLY_HILLS'
+        - 'WINDSWEPT_HILLS'
+        - 'MEADOW'
+        - 'GROVE'
+        - 'SNOWY_SLOPES'
+        - 'JAGGED_PEAKS'
+        - 'FROZEN_PEAKS'
+        - 'STONY_PEAKS'
+
+LapisOre:
+  noGenerateInWorlds:
+    - 'world'
+  enableInWorlds:
+    - 'world'
+  presets:
+    1:
+      minY: -64
+      maxY: 64
+      chance: 0.102
+      biomes:
+        - 'ALL'
+
+DiamondOre:
+  noGenerateInWorlds:
+    - 'world'
+  enableInWorlds:
+    - 'world'
+  presets:
+    1:
+      minY: -64
+      maxY: 16
+      chance: 0.065
+      biomes:
+        - 'ALL'
+
+NetherGoldOre:
+  noGenerateInWorlds:
+    - 'world_nether'
+  enableInWorlds:
+    - 'world_nether'
+  presets:
+    1:
+      minY: 0
+      maxY: 128
+      chance: 0.771
+      biomes:
+        - 'ALL'
+
+NetherQuartzOre:
+  noGenerateInWorlds:
+    - 'world_nether'
+  enableInWorlds:
+    - 'world_nether'
+  presets:
+    1:
+      minY: 0
+      maxY: 128
+      chance: 0.605
+      biomes:
+        - 'ALL'
+
+GildedBlackstone:
+  #By default gilded blackstone is not generating in BASALT_DELTAS, it generation only at Bastion structures.
+  #But, it can be mined from blackstone, if u setting it.
+  #
+  #  noGenerateInWorlds:
+  #    - 'world_nether'
+  #  enableInWorlds:
+  #    - 'world_nether'
+  #  presets:
+  #    1:
+  #      minY: 0
+  #      maxY: 128
+  #      chance: 0.441
+  #      biomes:
+  #        - 'BASALT_DELTAS'
+  noGenerateInWorlds: []
+  enableInWorlds: []
+  presets: {}
+
+AncientDebris:
+  noGenerateInWorlds:
+    - 'world_nether'
+  enableInWorlds:
+    - 'world_nether'
+  presets:
+    1:
+      minY: 0
+      maxY: 22
+      chance: 0.441
+      biomes:
+        - 'ALL'
